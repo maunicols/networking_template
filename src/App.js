@@ -1,13 +1,11 @@
 import './App.css';
-
+import MainPage from './Pages/Main'
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         
-        <p>
-         What if I told You that this project is just begginig
-        </p>
+        <MainPage/>
         <a
           className="App-link"
           href="https://reactjs.org"
